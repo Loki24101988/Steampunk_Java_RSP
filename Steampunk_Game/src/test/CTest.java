@@ -7,7 +7,7 @@ import javafx.event.EventHandler;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.layout.StackPane;
-import javafx.stage.Stage;;
+import javafx.stage.Stage;
 
 public class CTest extends Application {
 
@@ -24,7 +24,7 @@ public class CTest extends Application {
 	        btn.setOnAction(new EventHandler<ActionEvent>() {
 	 
 	            @Override
-	            public void handle(ActionEvent event) {s
+	            public void handle(ActionEvent event) {
 	                System.out.println("Hello World!");
 	            }
 	        });
