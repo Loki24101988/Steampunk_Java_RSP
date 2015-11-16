@@ -1,14 +1,12 @@
 package test;
-/*
-import javafx.application.Application;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
-import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.layout.StackPane;
-import javafx.stage.Stage;
 
-public class CTest extends Application{
+
+import javafx.application.*;
+import javafx.event.*;
+import javafx.scene.*;
+import javafx.stage.*;;
+
+public class CTest extends Application {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -35,4 +33,4 @@ public class CTest extends Application{
 	    }
 
 }
-*/
+
