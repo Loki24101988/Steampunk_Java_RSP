@@ -1,10 +1,13 @@
 package test;
 
 
-import javafx.application.*;
-import javafx.event.*;
-import javafx.scene.*;
-import javafx.stage.*;;
+import javafx.application.Application;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.layout.StackPane;
+import javafx.stage.Stage;;
 
 public class CTest extends Application {
 
@@ -21,7 +24,7 @@ public class CTest extends Application {
 	        btn.setOnAction(new EventHandler<ActionEvent>() {
 	 
 	            @Override
-	            public void handle(ActionEvent event) {
+	            public void handle(ActionEvent event) {s
 	                System.out.println("Hello World!");
 	            }
 	        });
