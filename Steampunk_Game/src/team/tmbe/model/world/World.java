@@ -107,6 +107,7 @@ public class World extends Thing {
 				
 				tmp_ret = false;
 				break;
+				
 			}
 		}
 		
