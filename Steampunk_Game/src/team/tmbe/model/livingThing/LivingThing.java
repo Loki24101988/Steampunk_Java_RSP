@@ -1,4 +1,4 @@
-package team.tmbe.model.LivingThing;
+package team.tmbe.model.livingThing;
 
 import team.tmbe.model.Thing;
 
