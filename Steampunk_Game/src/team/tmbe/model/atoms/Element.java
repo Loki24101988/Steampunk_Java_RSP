@@ -1,6 +1,6 @@
 package team.tmbe.model.atoms;
 
-import team.tmbe.model.UnLivingThing;
+import team.tmbe.model.unLivingThing.UnLivingThing;
 
 public abstract class Element extends UnLivingThing {
 

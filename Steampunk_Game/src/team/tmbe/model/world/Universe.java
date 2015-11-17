@@ -8,4 +8,12 @@ public  class Universe extends Thing {
 
 	private final String NAME;
 	private ArrayList<Planet> m_planets;
+	
+	public Universe(String NAME) {
+		
+		super();
+		this.NAME = NAME;
+		this.m_planets = new ArrayList<>();
+		
+	}
 }
