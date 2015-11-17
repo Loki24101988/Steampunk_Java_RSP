@@ -7,13 +7,16 @@ import team.tmbe.model.Thing;
 public  class Universe extends Thing {
 
 	private final String NAME;
-	private ArrayList<Planet> m_planets;
+	private ArrayList<Galaxy> m_galaxies;
 	
 	public Universe(String NAME) {
 		
 		super();
 		this.NAME = NAME;
-		this.m_planets = new ArrayList<>();
+		this.m_galaxies = new ArrayList<>();
 		
 	}
+	
+	
+	
 }
