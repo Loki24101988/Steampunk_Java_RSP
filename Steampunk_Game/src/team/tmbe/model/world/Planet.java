@@ -1,6 +1,7 @@
 package team.tmbe.model.world;
 
+import team.tmbe.model.Thing;
 
-public abstract class Planet extends Universe {
+public class Planet extends Thing {
 
 }

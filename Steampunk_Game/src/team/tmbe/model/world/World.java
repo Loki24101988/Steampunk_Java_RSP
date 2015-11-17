@@ -1,6 +1,7 @@
 package team.tmbe.model.world;
 
+import team.tmbe.model.Thing;
 
-public abstract class World {
+public class World extends Thing {
 
 }
