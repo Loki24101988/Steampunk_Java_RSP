@@ -15,5 +15,7 @@ public class MenuTestController {
 	@FXML
 	protected void isClicked() {
 		System.out.println("Hallo welt");
+		// this.menubar.setVisible(false);
 	}
+
 }
