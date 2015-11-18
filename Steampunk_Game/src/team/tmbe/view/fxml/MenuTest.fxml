@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+
+<VBox id="vbox" prefHeight="400" prefWidth="400" xmlns:fx="http://javafx.com/fxml" fx:controller="team.tmbe.controller.view.MenuTestController">
+	<MenuBar fx:id="menuBar" onMouseClicked="#handleKeyInput">
+		<menus>
+			<Menu text="File">
+				<items>
+					<MenuItem text="New" onAction="#isClicked"/>
+					<MenuItem text="Save" onAction="#isClicked"/>
+					<MenuItem text="Save As" onAction="#isClicked"/>
+					<MenuItem text="Load" onAction="#isClicked"/>
+					<SeparatorMenuItem />
+					<MenuItem text="Delete" onAction="#isClicked"/>
+				</items>
+			</Menu>
+			<Menu text="Edit">
+				<items>
+					<MenuItem text="Copy" onAction="#isClicked"/>
+					<MenuItem text="Cut" onAction="#isClicked"/>
+				</items>
+			</Menu>
+		</menus>
+	</MenuBar>
+</VBox>
+
