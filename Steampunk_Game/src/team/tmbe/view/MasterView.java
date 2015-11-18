@@ -8,14 +8,15 @@ import javafx.stage.Stage;
 
 public class MasterView extends Application {
 
-	@Override
-	public void start(Stage primaryStage) throws Exception {
-		Parent root = FXMLLoader.load(getClass().getResource("fxml/MasterView.fxml"));
+    @Override
+    public void start(Stage primaryStage) throws Exception {
 
-		primaryStage.setTitle("FXML Hello World!");
-		setUserAgentStylesheet(STYLESHEET_CASPIAN);
-		primaryStage.setScene(new Scene(root, 300, 250));
-		primaryStage.show();
-	}
+        Parent root = FXMLLoader
+                .load(getClass().getResource("fxml/MasterView.fxml"));
+
+        primaryStage.setTitle("FXML Hello World!");
+        primaryStage.setScene(new Scene(root, 300, 250));
+        primaryStage.show();
+    }
 
 }
