@@ -5,7 +5,7 @@ import javafx.scene.control.MenuBar;
 
 public class MenuTestController {
 	@FXML
-	private MenuBar menubar;
+	private MenuBar menuBar;
 
 	@FXML
 	protected void handleKeyInput() {
