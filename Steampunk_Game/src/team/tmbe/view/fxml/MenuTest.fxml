@@ -5,7 +5,7 @@
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.control.SeparatorMenuItem?>
 
-<VBox id="vbox" prefHeight="400" prefWidth="400" xmlns:fx="http://javafx.com/fxml" fx:controller="team.tmbe.controller.view.MenuTestController">
+<VBox id="vbox"  xmlns:fx="http://javafx.com/fxml" fx:controller="team.tmbe.controller.view.MenuTestController">
 	<MenuBar fx:id="menuBar" onMouseClicked="#handleKeyInput" useSystemMenuBar="true">
 		<menus>
 			<Menu text="File">

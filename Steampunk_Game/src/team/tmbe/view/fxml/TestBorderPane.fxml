@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="team.tmbe.controller.view.TestBorderPaneTest">
+	<!-- TODO Add Nodes -->
+	<top>
+		<fx:include source="MenuTest.fxml"/>
+	</top>
+	<left>
+		<VBox id="blaVBox" prefHeight="400" prefWidth="400" >
+			<Button fx:id="button1" text="Born to be wild" onAction="#button1"/>
+			<Button fx:id="button2" text="Born to be alive" onAction="#button2"/>
+			<Button fx:id="button3" text="Willst du mit mir gehen" onAction="#button3"/>
+		</VBox>
+	</left>
+</BorderPane>
+
