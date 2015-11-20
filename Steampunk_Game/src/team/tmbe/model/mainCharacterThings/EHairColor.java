@@ -1,4 +1,4 @@
-package team.tmbe.model.mainThings;
+package team.tmbe.model.mainCharacterThings;
 
 public enum EHairColor {
 	BLACK, BROWN, GREEN, BLUE, MAGENTA

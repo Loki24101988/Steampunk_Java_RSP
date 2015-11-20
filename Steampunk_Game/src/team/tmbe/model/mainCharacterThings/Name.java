@@ -1,4 +1,4 @@
-package team.tmbe.model.mainThings;
+package team.tmbe.model.mainCharacterThings;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package team.tmbe.model.mainThings;
+package team.tmbe.model.mainCharacterThings;
 
 public class GameDate {
 	protected byte day;
