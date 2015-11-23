@@ -13,6 +13,11 @@ public class Name {
 		this.m_LastName = m_LastName;
 	}
 
+	public Name(List<String> m_GivenNames, String m_LastName) {
+		this.m_GivenNameList = m_GivenNames;
+		this.m_LastName = m_LastName;
+	}
+
 	public void addGivenName(String m_GivenName) {
 		this.m_GivenNameList.add(m_GivenName);
 	}
