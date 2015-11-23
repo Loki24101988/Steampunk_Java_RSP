@@ -1,5 +1,5 @@
 package team.tmbe.model.livingThing.bodyParts;
 
-public class Body {
+public class Body extends PartOfBody {
 
 }

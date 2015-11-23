@@ -1,5 +1,5 @@
 package team.tmbe.model.livingThing.bodyParts;
 
-public abstract class Extremities {
+public abstract class Extremities extends PartOfBody {
 
 }

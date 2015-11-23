@@ -1,5 +1,5 @@
 package team.tmbe.model.livingThing.bodyParts;
 
-public class Ear {
+public class Ear extends PartOfBody {
 
 }
