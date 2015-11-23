@@ -1,5 +1,9 @@
 package team.tmbe.model.livingThing.nonHuman;
 
-public abstract class Animal extends NonHuman {
+import team.tmbe.model.livingThing.bodyParts.Body;
+import team.tmbe.model.livingThing.bodyParts.Head;
 
+public abstract class Animal extends NonHuman {
+	protected Body m_Body;
+	protected Head m_Head;
 }
